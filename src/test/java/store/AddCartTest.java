@@ -22,7 +22,7 @@ public class AddCartTest extends BaseTest {
     public static String productTestDataProviderPath = "resources/testdata/product/";
 
     @Test (description = "Selecciona un producto de la categoria laptops y agregarlo al carrito de compras", dataProvider = "productDataProvider")
-    public void selectProductAndAddToCart(Product product) throws IOException {
+    public void selectProductAndAddToCart(Product product) throws IOException, InterruptedException {
         ReportManager.getInstance().getTest().log(Status.INFO, "Test data: " + product.toString());
 
         //Seleccionar la categoria de laptops
@@ -39,6 +39,9 @@ public class AddCartTest extends BaseTest {
 
         //Agregar el producto al carrito de compras
         productPage.clickOnAddToCart();
+        Thread.sleep(3000);
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
 
         //Ir al carrito de compras
         productPage.clickOnGoCart();

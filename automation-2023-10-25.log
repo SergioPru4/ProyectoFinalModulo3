@@ -1,0 +1,5 @@
+2023-10-25T16:52:11,795 [main] INFO  (JsonTestDataHelper.java:29) - JsonTestDataHelper created
+2023-10-25T16:52:11,817 [main] INFO  (JsonTestDataHelper.java:37) - filePath: resources/testdata/product/product.json
+2023-10-25T16:52:11,905 [main] INFO  (JsonTestDataHelper.java:40) - geTestData: [Product{name='MacBook Pro', price='1100'}]
+2023-10-25T16:52:16,400 [main] INFO  (BaseTest.java:52) - Navigate to https://www.demoblaze.com/
+2023-10-25T16:52:25,538 [main] INFO  (BaseTest.java:82) - Closing the driver

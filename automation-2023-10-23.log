@@ -1,0 +1,36 @@
+2023-10-23T09:14:25,192 [main] INFO  (JsonTestDataHelper.java:29) - JsonTestDataHelper created
+2023-10-23T09:14:25,208 [main] INFO  (JsonTestDataHelper.java:37) - filePath: resources/testdata/product/product.json
+2023-10-23T09:14:25,275 [main] INFO  (JsonTestDataHelper.java:40) - geTestData: [Product{name='MacBook Pro', price='1100'}]
+2023-10-23T09:14:29,554 [main] INFO  (BaseTest.java:52) - Navigate to https://www.demoblaze.com/
+2023-10-23T09:14:35,347 [main] INFO  (BaseTest.java:82) - Closing the driver
+2023-10-23T09:14:35,349 [main] INFO  (JsonTestDataHelper.java:37) - filePath: resources/testdata/form/form.json
+2023-10-23T09:14:35,384 [main] INFO  (JsonTestDataHelper.java:40) - geTestData: [Form{name='Juan Sergio', country='Bolivia', city='La Paz', card='123456789', month='Mayo', year='2023'}]
+2023-10-23T09:14:36,973 [main] INFO  (BaseTest.java:52) - Navigate to https://www.demoblaze.com/
+2023-10-23T09:14:42,053 [main] INFO  (BaseTest.java:82) - Closing the driver
+2023-10-23T09:15:06,645 [main] INFO  (JsonTestDataHelper.java:29) - JsonTestDataHelper created
+2023-10-23T09:15:06,652 [main] INFO  (JsonTestDataHelper.java:37) - filePath: resources/testdata/product/product.json
+2023-10-23T09:15:06,700 [main] INFO  (JsonTestDataHelper.java:40) - geTestData: [Product{name='MacBook Pro', price='1100'}]
+2023-10-23T09:15:12,516 [main] INFO  (BaseTest.java:52) - Navigate to https://www.demoblaze.com/
+2023-10-23T09:15:27,491 [main] INFO  (BaseTest.java:82) - Closing the driver
+2023-10-23T09:15:27,494 [main] INFO  (JsonTestDataHelper.java:37) - filePath: resources/testdata/form/form.json
+2023-10-23T09:15:27,514 [main] INFO  (JsonTestDataHelper.java:40) - geTestData: [Form{name='Juan Sergio', country='Bolivia', city='La Paz', card='123456789', month='Mayo', year='2023'}]
+2023-10-23T09:15:32,075 [main] INFO  (BaseTest.java:52) - Navigate to https://www.demoblaze.com/
+2023-10-23T09:15:37,272 [main] INFO  (BaseTest.java:82) - Closing the driver
+2023-10-23T09:16:05,584 [main] INFO  (JsonTestDataHelper.java:29) - JsonTestDataHelper created
+2023-10-23T09:16:05,591 [main] INFO  (JsonTestDataHelper.java:37) - filePath: resources/testdata/product/product.json
+2023-10-23T09:16:05,642 [main] INFO  (JsonTestDataHelper.java:40) - geTestData: [Product{name='MacBook Pro', price='1100'}]
+2023-10-23T09:16:10,920 [main] INFO  (BaseTest.java:52) - Navigate to https://www.demoblaze.com/
+2023-10-23T09:16:25,600 [main] INFO  (BaseTest.java:82) - Closing the driver
+2023-10-23T09:16:25,602 [main] INFO  (JsonTestDataHelper.java:37) - filePath: resources/testdata/form/form.json
+2023-10-23T09:16:25,621 [main] INFO  (JsonTestDataHelper.java:40) - geTestData: [Form{name='Juan Sergio', country='Bolivia', city='La Paz', card='123456789', month='Mayo', year='2023'}]
+2023-10-23T09:16:30,320 [main] INFO  (BaseTest.java:52) - Navigate to https://www.demoblaze.com/
+2023-10-23T09:16:35,420 [main] INFO  (BaseTest.java:82) - Closing the driver
+2023-10-23T09:19:20,562 [main] INFO  (JsonTestDataHelper.java:29) - JsonTestDataHelper created
+2023-10-23T09:19:20,569 [main] INFO  (JsonTestDataHelper.java:37) - filePath: resources/testdata/product/product.json
+2023-10-23T09:19:20,625 [main] INFO  (JsonTestDataHelper.java:40) - geTestData: [Product{name='MacBook Pro', price='1100'}]
+2023-10-23T09:19:23,518 [main] INFO  (BaseTest.java:52) - Navigate to https://www.demoblaze.com/
+2023-10-23T09:19:29,242 [main] INFO  (BaseTest.java:82) - Closing the driver
+2023-10-23T09:19:29,244 [main] INFO  (JsonTestDataHelper.java:37) - filePath: resources/testdata/form/form.json
+2023-10-23T09:19:29,267 [main] INFO  (JsonTestDataHelper.java:40) - geTestData: [Form{name='Juan Sergio', country='Bolivia', city='La Paz', card='123456789', month='Mayo', year='2023'}]
+2023-10-23T09:19:31,298 [main] INFO  (BaseTest.java:52) - Navigate to https://www.demoblaze.com/
+2023-10-23T09:19:35,543 [main] INFO  (BaseTest.java:82) - Closing the driver

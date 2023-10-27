@@ -9,6 +9,7 @@ import org.example.models.Product;
 import org.example.pages.ProductPage;
 import org.example.pages.PurchasePage;
 import org.example.pages.StorePage;
+import org.openqa.selenium.Alert;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -25,7 +26,7 @@ public class PurchaseTest extends BaseTest {
 
 
     @Test (description = "Selecciona un producto de la categoria laptops y agregarlo al carrito de compras", dataProvider = "formDataProvider")
-    public void purchaseTest(Form form) throws IOException {
+    public void purchaseTest(Form form) throws IOException, InterruptedException {
 
         System.out.println(form.getCard());
         //Seleccionar la categoria de laptops
@@ -38,6 +39,9 @@ public class PurchaseTest extends BaseTest {
 
         //Agregar el producto al carrito de compras
         productPage.clickOnAddToCart();
+        Thread.sleep(3000);
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
 
         //Ir al carrito de compras
         productPage.clickOnGoCart();

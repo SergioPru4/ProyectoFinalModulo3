@@ -22,7 +22,7 @@ public class BaseTest {
 
     private String url = "https://www.demoblaze.com/";
 
-    private String browser = "chrome";
+    private String browser = "firefox";
 
     private static final Logger log = LogManager.getLogger(BaseTest.class);
 
